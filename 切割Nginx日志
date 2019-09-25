@@ -1,3 +1,4 @@
+#!/bin/bash
 #mkdir  /data/scripts 
 #vim   /data/scripts/nginx_log.sh  
 #!/bin/bash 
