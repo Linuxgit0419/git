@@ -66,7 +66,7 @@ if __name__ == '__main__':
     src = '/tmp/demo/security' #需要备份的目录
     dst = '/tmp/demo/backup'   #备份目标
     md5file = '/tmp/demo/backup/md5.data'  #md5值文件
-    if strftime('%a') == 'Mon':
+    if strftime('%a') == 'Mon':  #周一做完全备份,其他时间做增量备份
         full_backup(src,dst,md5file)
     else:
         incr_backup(src,dst,md5file)
